@@ -1,27 +1,15 @@
 # nmap-cookbook-cookbook
 
-TODO: Enter the cookbook description here.
+Installs Nmap and add the ability to
+[run Nmap as an unprivileged user](https://secwiki.org/w/Running_nmap_as_an_unprivileged_user)
+on Linux systems by using capabilities.
 
 ## Supported Platforms
 
-TODO: List your supported platforms.
+* Ubuntu 14.04
+* CentOS 7.0
 
 ## Attributes
-
-<table>
-  <tr>
-    <th>Key</th>
-    <th>Type</th>
-    <th>Description</th>
-    <th>Default</th>
-  </tr>
-  <tr>
-    <td><tt>['nmap-cookbook']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
-  </tr>
-</table>
 
 ## Usage
 
@@ -39,4 +27,4 @@ Include `nmap-cookbook` in your node's `run_list`:
 
 ## License and Authors
 
-Author:: YOUR_NAME (<YOUR_EMAIL>)
+Author:: Merouane Atig (merouane.atig@gmail.com)
