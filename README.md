@@ -1,4 +1,4 @@
-# nmap-cookbook-cookbook
+# Nmap Cookbook
 
 Installs Nmap and add the ability to
 [run Nmap as an unprivileged user](https://secwiki.org/w/Running_nmap_as_an_unprivileged_user)
