@@ -20,4 +20,9 @@
 
 package 'nmap'
 
-log 'Nmap package was installed'
+bash 'Add capabilities to Nmap' do
+  user 'root'
+  code <<-EOH
+    setcap cap_net_raw,cap_net_admin,cap_net_bind_service+eip /usr/bin/nmap
+  EOH
+end
