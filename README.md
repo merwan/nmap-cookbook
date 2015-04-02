@@ -15,12 +15,12 @@ on Linux systems by using capabilities.
 
 ### nmap-cookbook::default
 
-Include `nmap-cookbook` in your node's `run_list`:
+Include `nmap` in your node's `run_list`:
 
 ```json
 {
   "run_list": [
-    "recipe[nmap-cookbook::default]"
+    "recipe[nmap::default]"
   ]
 }
 ```

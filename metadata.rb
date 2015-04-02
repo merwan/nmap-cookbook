@@ -1,4 +1,4 @@
-name             'nmap-cookbook'
+name             'nmap'
 maintainer       'Merouane Atig'
 maintainer_email 'merouane.atig@gmail.com'
 license          'All rights reserved'
