@@ -18,6 +18,13 @@
 # limitations under the License.
 #
 
+case node["platform"]
+when "ubuntu", "debian"
+  package 'libcap2-bin'
+when "redhat", "centos", "amazon", "scientific"
+  package 'libcap'
+end
+
 package 'nmap'
 
 bash 'Add capabilities to Nmap' do
